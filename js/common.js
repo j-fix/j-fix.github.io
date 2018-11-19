@@ -167,7 +167,7 @@ jQuery(document).ready(function() {
  console.log('function 1');
 			$("#btn").click(
 			function(){
-				sendAjaxForm('result_form', 'ajax_form', 'action_ajax_form.php');
+				sendAjaxForm('result_form', 'ajax_form', 'https://app-1527939627.000webhostapp.com/rem.php');
 				return false; 
 			}
 		);

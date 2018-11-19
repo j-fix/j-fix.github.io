@@ -7,6 +7,7 @@
 .clients__item._sn img {
   top: -40px;
 }
+
 .cost__nav small:after, .cost__nav small:before {
 
     background:unset!important;

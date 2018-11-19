@@ -38,6 +38,11 @@ body {
   margin: 0;
 }
 
+.cost__nav small:after, .cost__nav small:before {
+
+    background:unset!important;
+}
+
 /**
  * Add the correct display in IE 9-.
  */

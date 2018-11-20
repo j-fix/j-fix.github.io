@@ -291,11 +291,19 @@ input {
 
 /* iPhone 6+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-/* Styles */
+input {
+
+    width: 390px;
+    height: 50px;
+}
+  textarea {
+    width: 390px;
+    height: 110px;  
+}
 }
 
 /* Samsung Galaxy S3 ----------- */

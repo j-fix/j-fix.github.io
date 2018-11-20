@@ -2,21 +2,23 @@
 <html lang="ru" >
 
 <head>
-<meta id="meta-viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>	
   <meta charset="UTF-8">
   <title>Заявка</title>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
       <link rel="stylesheet" href="css/style.css">
 
-  
+      <script src="https://raw.githubusercontent.com/matthieua/WOW/master/dist/wow.min.js"></script>
+      <script>
+      new WOW().init();
+      </script>
 </head>
 
-<body>
+<body class="wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s">
 
-  		<header>Оставить Заявку</header>
-          <div class="request__form">
-<form method="post" id="ajax_form" class="topBefore form">
+  		<header >Оставить Заявку</header>
+          <div class="wow slideInLeft request__form">
+<form method="post" id="ajax_form" class="wow slideInLeft topBefore form">
 		
 		  <input required="" aria-required="true" name="name" id="name" type="text" placeholder="Имя">
 		  <input required="" aria-required="true" name="phonenumber" id="email" type="text" placeholder="Телефон">

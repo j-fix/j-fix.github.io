@@ -13,6 +13,7 @@ select {
     border-radius: 5px;
     background-color: #9d9b9ad4;
     color: #fff;
+  float: right;
 }
 span {
       outline: 0;
@@ -20,6 +21,7 @@ span {
     font-size: small;
       display: -webkit-inline-box;
       padding: 5px;
+  float: left;
 }
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
   color: #bbb5af;

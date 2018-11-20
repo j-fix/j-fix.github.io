@@ -36,6 +36,16 @@ span {
      color: #fff;
     background: #008000b0;
 }
+span::after {
+      outline: 0;
+    display: inline;
+    font-size: small;
+      padding: 5px 0px 9px 0px;
+      display: -webkit-inline-box;
+      padding: 5px;
+     color: #fff;
+    background: #008000b0;
+}
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
   color: #bbb5af;
 }

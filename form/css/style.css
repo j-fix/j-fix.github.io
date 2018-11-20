@@ -43,7 +43,6 @@ input[type="text"] {
     font-weight: 900;
     text-align: center;
 }
-
 input::-moz-placeholder, textarea::-moz-placeholder {
   color: #aca49c;
   font-size: 0.875em;

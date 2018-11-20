@@ -344,6 +344,19 @@ input {
     width: 370px;
     height: 110px;  
 }
+  header.h:after {
+    width: 250px;
+    height: 40px;
+    content: '';
+    background-color: #fc0;
+    transform: rotate(59deg);
+    /* position: absolute; */
+    padding: unset;
+    z-index: -1;
+    position: absolute;
+    top: 75px;
+    left: 155px;
+  }
 }
 
 /* Samsung Galaxy S3 ----------- */

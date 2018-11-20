@@ -67,8 +67,9 @@ header.h:after {
     padding: unset;
     z-index: -1;
     position: absolute;
-    top: 120px;
-    left: 0;
+    top: 75px;
+    left: 350px;
+    /* left: 0; */
 }
 
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {

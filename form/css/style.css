@@ -42,7 +42,7 @@ span.new:after {
     height: 40px;
     content: '';
     background-color: #fc0;
-    /* font-size: 90%; */
+    transform: rotate(59deg);
     /* position: absolute; */
     padding: unset;
     z-index: -1;

@@ -68,7 +68,7 @@ header.h:after {
     z-index: -1;
     position: absolute;
     top: 75px;
-    left: 350px;
+    left: 450px;
       -webkit-transition: all 0.3s 
     /* left: 0; */
 }

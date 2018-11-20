@@ -18,7 +18,7 @@ select {
 }
 .s {
     padding: 7px;
-      background: #e7e4e1;
+        background: #eaeaea57;
     border-radius: 5px;
       transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;

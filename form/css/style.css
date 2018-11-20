@@ -126,6 +126,8 @@ input:hover {
 }
 
 textarea {
+      font-weight: 900;
+    text-align: center;
   width: 470px;
   max-width: 470px;
       max-width: 100%;

@@ -16,6 +16,7 @@ span {
     display: inline;
     font-size: small;
       display: -webkit-inline-box;
+      padding: 5px;
 }
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
   color: #bbb5af;

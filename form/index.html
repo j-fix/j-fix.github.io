@@ -1,1 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru" >
 
+<head>
+  <meta charset="UTF-8">
+  <title>Заявка</title>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  		<header>Оставить Заявку</header>
+          <div class="request__form">
+<form method="post" id="ajax_form" class="topBefore form">
+		
+		  <input required="" aria-required="true" name="name" id="name" type="text" placeholder="Имя">
+		  <input required="" aria-required="true" name="phonenumber" id="email" type="text" placeholder="Телефон">
+		  <textarea id="message" type="text" placeholder="Что случилось"></textarea>
+  <input class="submit" id="btn" type="submit" value="Отправить">
+  
+</form>
+  
+          </div>
+          <div id="result_form"></div> 
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

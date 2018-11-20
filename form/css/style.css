@@ -37,7 +37,7 @@ span {
      color: #fff;
     background: #008000b0;
 }
-span:after {
+span.new:after {
       outline: 0;
     display: inline;
     font-size: small;

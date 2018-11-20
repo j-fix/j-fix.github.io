@@ -7,6 +7,11 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #aca49c;
   font-size: 0.875em;
 }
+select {
+    border-radius: 5px;
+    background-color: #9d9b9ad4;
+    color: #fff;
+}
 span {
     display: inline;
     font-size: small;

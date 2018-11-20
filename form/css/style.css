@@ -19,6 +19,11 @@ select {
 }
 .s {
     padding: 7px;
+      background: #e7e4e1;
+    border-radius: 5px;
+}
+.s:hover {
+      background: #e7e4e1; 
 }
 span {
       outline: 0;

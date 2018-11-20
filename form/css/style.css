@@ -138,7 +138,7 @@ textarea {
   font-size: 0.875em;
   
   border: solid 1px #b3aca7;
-  
+  border: unset;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;

@@ -14,11 +14,13 @@ select {
     background-color: #9d9b9ad4;
     color: #fff;
   float: right;
+      padding: 5px 0px 5px 0px;
 }
 span {
       outline: 0;
     display: inline;
     font-size: small;
+      padding: 5px 0px 9px 0px;
       display: -webkit-inline-box;
       padding: 5px;
  /* float: left;*/

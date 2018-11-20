@@ -37,13 +37,20 @@ span {
      color: #fff;
     background: #008000b0;
 }
-    span.new:after {
-      content: "Новьё!"; /* Добавляемый текст */ 
-      color: #333; /* Цвет текста */ 
-      background-color: #fc0; /* Цвет фона */ 
-      font-size: 90%; /* Размер шрифта */ 
-      padding: 2px; /* Поля вокруг текста */ 
-    }
+span.new:after {
+    width: 250px;
+    height: 40px;
+    content: '';
+    background-color: #fc0;
+    /* font-size: 90%; */
+    /* position: absolute; */
+    padding: unset;
+    z-index: -1;
+    position: absolute;
+    top: 120px;
+    left: 0;
+}
+
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
   color: #bbb5af;
 }

@@ -107,6 +107,7 @@ input {
   
   border: solid 1px #b3aca7;
   border-bottom: none;
+  border: unset;
   
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

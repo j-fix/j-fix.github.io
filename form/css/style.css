@@ -17,6 +17,9 @@ select {
   float: right;
       padding: 5px 0px 5px 0px;
 }
+.s {
+    padding: 7px;
+}
 span {
       outline: 0;
     display: inline;
